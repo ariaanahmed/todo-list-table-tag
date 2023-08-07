@@ -18,7 +18,7 @@ const addItemBtn = () => {
     <td style="text-align: justify; font-weight: 600; border-right: 1px solid black; word-break: break-all;" class="w-100">${addItemField.value}</td>
     
     <td class="d-flex flex-column flex-md-row gap-1 border-0 text-center">
-        <button class="btn btn-danger px-1 py-0 text-white deletBtn" style="font-weight: 500">X</button>
+        <button class="btn btn-danger px-1 py-0 mb-1 mb-md-0 text-white deletBtn" style="font-weight: 500">X</button>
         <button class="btn btn-success px-1 py-0 doneBtn" style="font-weight: 500">Done</button>
     </td> `;
 
